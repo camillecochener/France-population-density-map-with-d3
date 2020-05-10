@@ -1,0 +1,62 @@
+body { 
+    text-align: center;
+    font: 16px "Raleway";
+}
+
+svg {
+    display: block;
+    margin: 0 auto;
+}
+
+
+h1 {
+    font-size: 20px;
+    font-family:"Raleway";
+    color:black;
+    font-weight:normal;
+}
+
+.axis text{
+    fill: grey;
+    font: 12px "Raleway";
+}  
+
+.axis path{
+    stroke: grey;
+}
+
+.axis line {
+    fill: grey;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+div.tooltip {	
+    position: absolute;			
+    text-align: center;			
+    width: 180px;					
+    height: 30px;					
+    padding: 4px;				
+    font: 12px "Raleway";		
+    background: lightgrey;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
+
+.legendaxis { 
+    padding: 5px; 
+    font: 10px "Raleway"; 
+} 
+
+.author { 
+    text-align: center;
+    font: 14px "Raleway";
+}
+
+.axistitle { 
+    font: 14px "Raleway";
+}
+
+
